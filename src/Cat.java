@@ -3,7 +3,7 @@
  *
  */
 public class Cat extends Animal {
-
+////extends shows Inheritance which is  this class uses the frame work from the parent class and change it with the class out put using override
     public Cat() {
         super();
         //
@@ -12,6 +12,7 @@ public class Cat extends Animal {
 
     @Override
     public String sleep() {
+    //The authority it is give to access by using the access modifier this is called the encapsulation
         return "A cat sleeps...";
     }
 
@@ -21,7 +22,7 @@ public class Cat extends Animal {
     }
 
     public String purr() {
-        //you can have a featcher
+        // This method is excuting polymorphism adding of its own char
         return "purrr...";
     }
 
